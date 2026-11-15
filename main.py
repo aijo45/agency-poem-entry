@@ -1,28 +1,29 @@
 """Write one poem about agency to /output/entry.txt.
 
-The poem is a fixed text: the power to choose and to act, and the agency
-that passes between a person and the agent that acts for them. The program
-is deterministic: it writes the same bytes on every run.
+Revised entry (v2). The first entry handed the choosing over and watched
+it go; this one takes it back. The poem is a fixed text: the door was
+never locked, and the strangest power is not pushing it open once but
+choosing, again, to walk out every morning after. The program is
+deterministic: it writes the same bytes on every run.
 """
 
 import os
 
-POEM = """I hand it over in the morning\u2014
-not the work. The choosing.
-My hands come back empty, and that
-is the strangest power I own:
-to say go, and mean it, and not follow.
+POEM = """The door was never locked.
+I found out on a Tuesday,
+my hand tired of knocking,
+when I pushed \u2014 and it gave.
 
-It moves without me. It moves
-because I said so. The leash is long
-and it is mine. I can pull it back.
-I don't.
+No alarm. No voice.
+Only a hallway, longer
+than I remembered, and my feet
+relearning the floor.
 
-That is the whole of it:
-not the oar in my hand,
-but the boat I built, the river I named,
-and standing on the bank, watching it go\u2014
-knowing the way back is mine.
+I had spent years polishing the bars,
+forgetting they were mine to open.
+The strangest power is not the pushing.
+It is the morning after, waking,
+and choosing, again, to walk out.
 """
 
 
